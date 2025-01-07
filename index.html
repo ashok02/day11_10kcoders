@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .parent{
+            width: 100%;
+            height: 750px;
+            /* background-color: azure; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url(./img3.jpg);
+           
+        }
+        .child1{
+            width: 50%;
+            height: 350px;
+            border: 2px solid black;
+            text-align: center;
+            /* background-color: aquamarine; */
+            border-radius: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="parent">
+
+        <div class="child1">
+    <h1>Sign-Up Page</h1>
+    <br>
+    <hr>
+    <br>
+
+    <form action="">
+
+        <!-- <input type="hidden" name="access_key" value="1d3bd881-d2e9-46af-861f-14a952016776"> -->
+
+    <label for="name">Nmae:</label>
+    <input type="text" name="first_name" value="" id="name"  required>
+    <br>
+    <br>
+
+    <label for="last_name">last name:</label>
+    <input type="text" name="last_name" value="" id="last_name" required>
+    <br><br>
+
+    <label for="pno">phone Number:</label>
+    <input type="number" name="Pno" value="" id="pno" required pattern="[0-9]+">
+
+    <br>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" placeholder="Enter your mail" id="email" required>
+    <br>
+    <br>
+    <label for="pass">password</label>
+    <input type="password" name="password" id="pass"  required>
+    <br>
+    <br>
+    <!-- <input type="submit" value="submit"> -->
+
+    <a href="./login.html">
+        <input type="button" value="login">
+    
+    </a>
+</form>
+
+</div>
+
+</div>
+</body>
+</html>

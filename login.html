@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .parent{
+            background-color: rgb(25, 66, 98);
+            width: 100%;
+            height: 750px;
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          background-color: aqua;
+            
+        }
+        .child1{
+            width: 105%;
+            height: 300px;
+            border: solid black;
+            text-align: center;
+            padding-top: 55px; margin-top: 15px;
+            border-radius: 20px;
+            /* background-color: rgb(35, 193, 193); */
+            margin-bottom: 55px;
+            background-image: url(./img2.jpeg);
+            
+
+        }
+        
+    </style>
+</head>
+<body>
+   
+    
+        <div class="parent">
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="1d3bd881-d2e9-46af-861f-14a952016776">
+
+            <div class="child1">
+                <h1>Login Form</h1>
+                <br>
+                
+
+                <label for="a1">email</label>
+                <input type="email" name="usrname" value="" id="a1" required>
+               <br>
+               <br>
+
+                <label for="a2">password</label>
+                <input type="pass" name="usrmail" value="" id="a2" required>
+                <br>
+                <br>
+                <!-- <label for="password">password</label>
+                <input type="password" name="password" id="password">
+                <br>
+                <br> -->
+               <input type="submit" value="submit"></a> 
+               <a href="./reset.html">
+                <input type="button" value="Forgot Password">
+               </a>
+               <br>
+               <br>
+               <a href="./index.html">
+                <input type="button" value="Sign-Up Page">
+               </a>
+                
+            </form>
+
+<!-- <a href="./reset.html">
+  reset
+</a> -->
+            </div>
+        </div>
+       
+</body>
+</html>
